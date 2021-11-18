@@ -4,8 +4,8 @@
 - Jump to beginning of current word – Option+Left Arrow
 - Jump to end of current word – Option+Right Arrow
 - Jump to beginning of all text – Command+Up Arrow
-- Jump to end of all text – Command+Down Arrow
-Add Shift to any of those to make selections.
+- Jump to end of all text – Command+Down Arrow  
+#Add Shift to any of those to make selections.
 
 - Change keyboard language – Control+Space
 - Mount external Network – Command+K (in Finder)
