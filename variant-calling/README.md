@@ -1,4 +1,4 @@
-# QC, Alignment & LPA Variant 
+# QC, Alignment & Variant calling
 
 ## Data Structure
 
