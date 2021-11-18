@@ -24,6 +24,6 @@ The strings themselves should not need to be escaped
 
 
 ## Color Links
-http://www.colourlovers.com/lover/droog_22
-http://colorbrewer2.org/
+http://www.colourlovers.com/lover/droog_22  
+http://colorbrewer2.org/  
 A - green, T - red, C - blue, G - orange
