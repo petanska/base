@@ -1,4 +1,4 @@
-# interesting and useful commands in R
+# R
 
 ## colorblind-friendly qualitative colour sets:
 - "#4DAC26", "yellow", "#D01C8B", "black"
