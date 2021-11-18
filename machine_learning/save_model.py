@@ -1,3 +1,6 @@
+import json
+import pandas as pd
+
 model_name = ''
 model_json = testmodel.to_json()
 with open('Model_' + model_name + '.json', "w") as json_file:
