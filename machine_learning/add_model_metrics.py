@@ -1,5 +1,6 @@
 # Aadditional metrics:
 from scipy.stats import spearmanr
+import tensorflow as tf
 def Spearman(y_true, y_pred):
      return (tf.py_function(spearmanr, [tf.cast(y_pred, tf.float32), 
                        tf.cast(y_true, tf.float32)], Tout = tf.float32))
