@@ -142,7 +142,7 @@ With <NUM> the user can specify the ######### ####### (## is recommended).
 
 The original VCF results are located in `output/final/` and end with `\_wes-hg19.gatk.vcf` or `\_wes-mask.gatk.vcf`.  
 BGI VCF results are located in `/###/############/########/#######################/#########/*/*/###############/###/*.snp.vcf.gz`.  
-Master Thesis VCF results are located in `/###/############/########/#######################/*/###/###/####/*_wes-chr6.vcf`.  
+Master Thesis VCF results are located in `/###/############/########/#######################/*/###/###/####/*_wes-chr#.vcf`.  
      
      cd /mnt/genepi-lehre/projects/projectName/
      sh run-diff.sh <output/final/*_wes.gatk.vcf> <file2.vcf>

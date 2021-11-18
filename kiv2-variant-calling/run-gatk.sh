@@ -38,7 +38,7 @@ do
 	
 # Variant Calling
 
-        java -jar bins/GenomeAnalysisTK.jar -T HaplotypeCaller -R data/external/hg19.fasta -I output/final/$NAME.dedup.realigned.recal.bam --genotyping_mode DISCOVERY -L chr6:#########-######### -stand_call_conf 30 -stand_emit_conf 10 -minPruning 3 -o output/tmp/$NAME.variants.vcf
+        java -jar bins/GenomeAnalysisTK.jar -T HaplotypeCaller -R data/external/hg19.fasta -I output/final/$NAME.dedup.realigned.recal.bam --genotyping_mode DISCOVERY -L chr#:#########-######### -stand_call_conf 30 -stand_emit_conf 10 -minPruning 3 -o output/tmp/$NAME.variants.vcf
 
 # Variant Filtering
 

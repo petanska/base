@@ -37,7 +37,7 @@ if grep -q chr output/tmp/comp2.tmp; then
 fi
 
 # The if statement checks if #CHROM is written as "#" or "chr#". This is important for the diff command.
-# If it is written as "chr6" the first 3 letters of each string are removed with cut.
+# If it is written as "chr#" the first 3 letters of each string are removed with cut.
 
 # The coordinates are used to determine the region in which a respective variant was found (=origin).
 # Origin = exonic sequence with 100 bp intronic context. Everythng outside that region is tagged "int" for intronic.
