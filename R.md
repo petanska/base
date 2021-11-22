@@ -26,3 +26,8 @@ subjectHits(findOverlaps())
 ```
 resize(gr, 1001, "center")
 ```
+
+### motif enrichment
+```
+motifmatchr::matchMotifs(TFBSTools::PWMatrix, gr, genome=BSgenome.*.UCSC.*, p.cutoff=1e-3, bg="genome", out="scores")
+```
