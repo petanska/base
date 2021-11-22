@@ -1,6 +1,15 @@
 # R
 
-## GRanges
-- Inspect GRanges (gr) object – view(dataframe(gr))
-- metadata can be inspected with the $ operator
-- mcols(gr) can access the metadata using []
+### GRanges
+#### inspect
+'''
+View(data.frame(gr))
+'''
+#### acess the metadata using $
+'''
+gr$meta
+'''
+#### access the metadata using []
+'''
+mcols(gr)[1]
+'''
