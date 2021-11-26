@@ -1,4 +1,4 @@
-# QC, Alignment & LPA Variant 
+# QC, Alignment & LPA Variant Calling 
 
 ## Directory Structure
 
