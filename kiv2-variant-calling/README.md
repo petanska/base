@@ -1,6 +1,6 @@
 # QC, Alignment & LPA Variant 
 
-## Data Structure
+## Directory Structure
 
 ```bash
 .
