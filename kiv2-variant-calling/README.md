@@ -131,7 +131,7 @@ Loops over kiv2-aligned bams.
      cd /mnt/genepi-lehre/projects/projectName/
      sh run-mutserve##.sh <NUM>
 
-With <NUM> the user can specify the ######### ####### (## is recommended).
+With \<NUM> the user can specify the ######### ####### (## is recommended).
      
 
 ## Compare VCF results
