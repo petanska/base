@@ -1,8 +1,11 @@
 # h5py
+```
 import h5py
 h5py.__version__
+```
 
-# print fast5 structure
+### print fast5 structure
+```
 def print_h5_keys_recursive(a, pad=''):
     if hasattr(a, 'keys'):
         for k in list(a.keys()):
@@ -14,9 +17,10 @@ def print_h5_keys(f5):
     f = h5py.File(f5, 'r')
     first_read_name=next(iter(f.keys()))
     print_h5_keys_recursive(f[first_read_name])
-    
-#
-# identify the Basecall_1D group with "Trace"
+```
+
+### identify the Basecall_1D group with "Trace"
+```
 with h5py.File(f5, 'r') as f:
     # extract first read
     readID1 = str(list(f.keys())[0])
@@ -35,7 +39,10 @@ with h5py.File(f5, 'r') as f:
                 print('did not find Trace information')
     except KeyError:
         print(f'Expected key "Analyses" but found {list(f[readID1].keys())}')
-        
- # count reads inside fast5
+```
+
+### count reads inside fast5
+```
  with h5py.File(f5, 'r') as f:
     print(len(f.keys()))
+```
